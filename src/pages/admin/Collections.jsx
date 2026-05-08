@@ -11,7 +11,7 @@ const AdminCollections = () => {
   const token = localStorage.getItem("token");
   // 📥 fetch collections
   const fetchCollections = async () => {
-    const res = await axios.get("http://localhost:5000/api/collections");
+    const res = await axios.get("https://sobmav-back-1.onrender.com/api/collections");
     setCollections(res.data);
   };
 
