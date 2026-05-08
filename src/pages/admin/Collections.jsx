@@ -31,7 +31,7 @@ const AdminCollections = () => {
   
 
 await axios.post(
-  "http://localhost:5000/api/collections",
+  "https://sobmav-back-1.onrender.com/api/collections",
   formData,
   {
     headers: {
@@ -47,7 +47,7 @@ await axios.post(
 
   // 🗑 delete
   const handleDelete = async (id) => {
-    await axios.delete(`http://localhost:5000/api/collections/${id}`,
+    await axios.delete(`https://sobmav-back-1.onrender.com/api/collections/${id}`,
   {
     headers: {
       "Content-Type": "multipart/form-data",
