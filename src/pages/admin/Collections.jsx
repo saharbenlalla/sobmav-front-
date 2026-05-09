@@ -103,10 +103,10 @@ await axios.post(
 
             {c.image && (
             <img
-              src={`https://sobmav-back-1.onrender.com${c.image}`}
-              alt={c.title}
-              className="w-full h-90 object-cover transform hover:scale-110 transition duration-300"
-            />
+  src={c.image}
+  alt={c.title}
+  className="w-full h-90 object-cover transform hover:scale-110 transition duration-300"
+/>
             )}
 
             <h2 className="font-bold mt-2">{c.title}</h2>
