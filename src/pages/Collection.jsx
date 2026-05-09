@@ -57,10 +57,10 @@ const Collections = () => {
           >
             {/* IMAGE */}
             <img
-              src={`https://sobmav-back-1.onrender.com${item.image}`}
-              alt={item.title}
-              className="h-[500px] w-full object-cover"
-            />
+  src={item.image}
+  alt={item.title}
+  className="h-[500px] w-full object-cover"
+/>
 
             <div className="p-5">
               <h2 className="text-xl font-semibold text-gray-800 mb-2">
